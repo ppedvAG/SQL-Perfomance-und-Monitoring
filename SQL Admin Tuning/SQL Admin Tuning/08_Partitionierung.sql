@@ -49,6 +49,13 @@ ALTER TABLE dbo.u2019 ADD CONSTRAINT
 --Nachteil: kein identity!! wenn du INS UP DEL machen willst in die Sicht
 ---         PK muss eindeutig auf Sicht: PK auf ID und Jahr
 
+
+--sequenz
+
+select next value for seqID
+
+
+
 --          doof für Wartung
 
 ---Part Sicht!!
@@ -74,6 +81,22 @@ create table test4 ( id int) on  DG1, DG2 , DG3
 --PARTITIONIERUNG
 
 --4 Dateigruppen: bis100 bis200 bis5000 rest
+
+create table t1(id int) ON ARCHIV
+
+--F()   schema Dgruppe
+
+----------M--------1.1.1999---------------------
+--  1               2                            3
+
+create table tab (id int) ON SCHEMA(Spalte5)
+
+create partition scheme schname
+as
+partition fzahl()  to (Dg1, DG2, DG3)
+---                               1      2      3
+
+
 
 
 --PART FUNKTION
@@ -127,7 +150,7 @@ commit
 
 
 set statistics io, time on
-select * from ptab where nummer = 117 --100 Seiten
+select * from ptab where nummer = 1170 --100 Seiten
 
 
 select * from ptab where id = 117
@@ -174,6 +197,12 @@ select * from ptab where nummer = 1117
 alter partition function fzahl() merge range (100)
 
 --Welche nehmen wir gerade her Dateigruppe f()
+
+
+
+
+
+
 
 CREATE PARTITION SCHEME [schZahl] AS PARTITION
 [fZahl] TO ([bis200], [bis5000], [rest])

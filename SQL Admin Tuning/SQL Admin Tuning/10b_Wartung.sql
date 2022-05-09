@@ -1,14 +1,22 @@
---> für SQL 2014 und früher empfiehlt sich statt Wartungsplan das Scrtipt von Ola Hallengren zu verwenden
+--> für SQL 2014 und früher empfiehlt sich statt Wartungsplan das Script von Ola Hallengren zu verwenden
 --hier werden Fragmentierungen berücksichtigt
 
--- > 30 %Rebuild
--- < 10 % jkein Defrag notwendig
--- 10 bis 30 Reorg
+-- > 30 % --> Rebuild
+-- < 10 %       kein Defrag notwendig
+-- 10 bis 30  ---> Reorg
 
 
 /*
 
-zu einer Wartung gehört auch das Aktualisieren von Statsitiken.
+zu einer Wartung gehört auch das Aktualisieren von Statistiken.
+Statistiken: SQL prüft  -vor Ausführung von Abfragen - wieviele ZEilen zurückkommen.
+Diese Anzahl wird aus dem Histogramm gebildet, dass der SQL Server automatisch erstellt.
+Histogramm: Verteilung der DAten innerhalb einer Spalte (oder auch mehr Spalten)
+Werden nicht bei jedem I U D aktualisiert und können somit falsch sein..
+
+--Plan muss aber aufgrund der zu erwartenden Menge für SEEK oder SCAN entscheiden...
+
+
 Je korrekteer diese sind desto exakter kann ein Ausführungsplan eingeschärtzt werden...
 
 

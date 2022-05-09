@@ -26,8 +26,8 @@
           <FullPath>01_Virtualisierung.sql</FullPath>
         </FileNode>
         <FileNode Name="02_Setup.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02_Setup.sql</FullPath>
         </FileNode>
@@ -62,26 +62,26 @@
           <FullPath>07_MAXDOP.sql</FullPath>
         </FileNode>
         <FileNode Name="08_Partitionierung.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>08_Partitionierung.sql</FullPath>
         </FileNode>
         <FileNode Name="10_Indizes.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>10_Indizes.sql</FullPath>
         </FileNode>
         <FileNode Name="10a_Überflüssige Indizes.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>10a_Überflüssige Indizes.sql</FullPath>
         </FileNode>
         <FileNode Name="10b_Wartung.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>10b_Wartung.sql</FullPath>
         </FileNode>
@@ -91,11 +91,29 @@
           <AssociatedConnUserName />
           <FullPath>12_Monitoring.sql</FullPath>
         </FileNode>
+        <FileNode Name="12a_Wichtige  Systemsichten.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12a_Wichtige  Systemsichten.sql</FullPath>
+        </FileNode>
         <FileNode Name="instnwnd.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2019 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2019 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tag2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Tag2.sql</FullPath>
         </FileNode>
         <FileNode Name="Wiederholung.sql">
           <AssociatedConnectionMoniker />
@@ -108,6 +126,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Z_Fix_VLF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Nützliche URLS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_Nützliche URLS.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_Spieltabelle.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
@@ -131,11 +155,11 @@
           <AssociatedConnUserName />
           <FullPath>FirstResponderKit.zip</FullPath>
         </FileNode>
-        <FileNode Name="PerfmonVorlage.xml">
+        <FileNode Name="SQLPerfmonVorlage.xml">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>PerfmonVorlage.xml</FullPath>
+          <FullPath>SQLPerfmonVorlage.xml</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

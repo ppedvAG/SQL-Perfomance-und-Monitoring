@@ -13,8 +13,8 @@ GO
 
 insert into ku
 select * from KU
-GO  8
+GO  9
 
-
+drop table ku
 alter table ku add id int identity
 GO
